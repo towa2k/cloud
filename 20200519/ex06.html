@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid black;
+            height: 80px;
+        }
+        #aaa{
+            /* 
+            4개:위 오른쪽 아래 왼쪽 margin : 50px 30px 20px 10px
+            2개:아래위 좌우 margin : 50px 30px
+            1개:4방향 margin : 30px
+            margin-left : 30px
+            margin-right : 20px
+            margin-top : 30px
+            margin-bottom : 10px
+            */
+            margin: 50px 30px 20px 10px;
+        }
+        #bbb{
+            padding: 30px 10px; /*패딩은 auto가 없음*/
+        }
+        .ccc{
+            margin: 50px;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 마진(margin) 속성-->
+    <div id="aaa">
+        
+    </div>
+    <!-- 패딩(padding) 속성-->
+    <div id="bbb">
+        bbb
+    </div>
+    <!-- 마진(margin) 패딩(padding) 속성-->
+    <div class="ccc">
+        ccc
+    </div>
+</body>
+</html>
